@@ -59,7 +59,8 @@ def main(data_file, vocab_path):
     word_binary_sum = word_binary.sum()
     print(f"Sum of binary matrix: {word_binary_sum}")
 
-    # TODO: normalize features by review length (divide rows by number of words in the review)
+    # TODO: normalize features for review length (divide rows by number of function words in the review)
+    # HINT: each row should sum to 1
     norm_reviews = np.copy(review_features)
     norm_reviews_sum = norm_reviews.sum()
     print(f"Sum of normed matrix: {norm_reviews_sum}")

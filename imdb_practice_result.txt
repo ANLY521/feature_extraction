@@ -6,5 +6,5 @@ No instances found for:
 Sum of raw count matrix: 64624
 Sum of binary matrix: 21182
 Sum of normed matrix: 500.0
-Shape after removing features that occur < 100 times: (500, 81)
+Shape after removing features that occur < 100 times: (500, 82)
 Split checks passed!
